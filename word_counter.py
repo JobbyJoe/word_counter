@@ -14,7 +14,7 @@ def save_count_to_file(count, filename="word_count.txt"):
 if __name__ == "__main__":
 	text = input("Enter some text: ")
 	count = count_words(text)
-	unique_count = count_unique_words(test)
+	unique_count = count_unique_words(text)
 	print("Word count:", count)
 	print("Unique word count:", unique_count)
 	save_count_to_file(count)
